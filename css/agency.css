@@ -183,6 +183,7 @@ fieldset[disabled] .btn-xl.active {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 400;
+  font-size: 16px;
   letter-spacing: 1px;
   color: white;
 }
@@ -222,11 +223,18 @@ fieldset[disabled] .btn-xl.active {
 }
 @media (min-width: 768px) {
   .navbar-custom.affix {
-    background-color: #222222;
+    background-color: #fff;
     padding: 10px 0;
   }
   .navbar-custom.affix .navbar-brand {
-    font-size: 1.5em;
+    // font-size: 1.5em;
+    color: #333;
+  }
+  .navbar-custom.affix .navbar-nav > .active > a {
+    color: #333;
+  }
+  .navbar-custom.affix .nav li a {
+    color: #333;
   }
 }
 header {
@@ -295,7 +303,7 @@ section h2.section-heading {
   margin-bottom: 15px;
 }
 section h3.section-subheading {
-  font-size: 16px;
+  font-size: 20px;
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: none;
   font-style: italic;
@@ -446,7 +454,8 @@ section h3.section-subheading {
 
 .navbar-img {
   width: 50px;
-  height: 50px;
+  height: 47px;
+  padding-top: 2px;
   float: left;
   margin-right: 12px;
 }
