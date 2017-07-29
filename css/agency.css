@@ -251,8 +251,8 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/header-bg.jpg');
-  background: url('../img/header-bg.jpg') no-repeat center center fixed; 
+  background-image: url('../img/header-bg.png');
+  background: url('../img/header-bg.png') no-repeat center center fixed; 
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -284,7 +284,7 @@ header .intro-text .intro-heading {
   line-height: 50px;
   margin-bottom: 25px;
   letter-spacing: 10px;
-  opacity: 0.5;
+  opacity: 0.8;
 }
 @media (min-width: 768px) {
   header .intro-text {
