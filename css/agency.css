@@ -190,7 +190,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom .nav li a:hover {
   color: #ffffff;
   outline: none;
-  background-color: #fec503;
+  background-color: #fed136;
   border-radius: 3px;
 }
 .navbar-custom .nav li a:focus {
@@ -244,7 +244,7 @@ fieldset[disabled] .btn-xl.active {
     color: #333;
   }
   .navbar-custom.affix .navbar-nav > .active > a:hover {
-    background-color: #fec503;
+    background-color: #fed136;
   }
   .navbar-custom.affix .navbar-nav > .active > a:focus {
     background-color: #ffffff;
@@ -804,7 +804,7 @@ body {
   .navbar-custom .nav li a:hover {
     color: #ffffff;
     outline: none;
-    background-color: #fec503;
+    background-color: #fed136;
     border-radius: 3px;
   }
 }
